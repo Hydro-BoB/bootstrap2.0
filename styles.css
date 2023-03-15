@@ -1,0 +1,154 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
+
+h2{
+    
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.big-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+
+.navbar-brand{
+font-family: 'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 300px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+#features{
+padding: 7% 15%;
+background-color: white;
+position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    padding: 3.5%;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff ;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width:1155px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+    }
+   
+
+}
+
+#cta{
+    color: #fff;
+    padding: 7% 15% 0;
+    background-color: #ff4c68;
+}
+
+#footer{
+    padding: 7% 15%;
+}
